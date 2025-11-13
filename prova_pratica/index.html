@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENU    SUPERAÇAIADIN</title>
+    <title>MENU SUPERAÇAIAJIN</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-    
+        <h1>FOMULARIO SUPERAÇAIAJIN</h1>
+    <form class="Dados_pessoais">
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label for="name">Nome:</label><br>
+            <input type="text" name="name"><br><br>
+            <label for="name">Idade:</label><br>
+            <input type="number" name="Idade"><br><br>
+            <label for="name">Telefone:</label><br>
+            <input type="number" name="Telefone"><br><br>
+            <label for="name">Endereço</label><br>
+            <input type="text" name="Endereço"><br><br>
+            <label for="name">Planeta de Origem</label>
+            <select name="regiao" id="regiao">
+                <option>Outros</option>
+                <option>Planeta Terra</option>
+                <option>Planeta Namek</option>
+                <option>Planeta Vegeta</option>
+            </select>
+        </fieldset>
+    </form>
+    <br>
+    <form action="Dados_Extras">
+        <fieldset>
+            <legend>Dados Extras</legend>
+            <label for="name">Raça do Universo 7 preferida</label>
+            <select name="raca" id="raca">
+                <option>Outros</option>
+                <option>Terráqueo</option>
+                <option>Sayajin</option>
+                <option>Namekuseijin</option>
+                <option>Android</option>
+            </select><br><br>
+            <!-- aqui foi iniciado um jornada de pura gambiarra e sofrimento para alcaçar
+             nivel supremo de superaçaiajin e tbm pq deus quis -->
+            <label for="name">Trabalho: </label>
+            <input type="radio" name="sex" id="autonomo" value="autonomo">
+            <label for="autonomo">Autônomo</label>
+            <input type="radio" name="sex" id="empregado" value="empregado">
+            <label for="empregado">Empregado CLT</label>
+            <input type="radio" name="sex" id="empresario" value="empresario">
+            <label for="empresario">Empresário</label>
+            <input type="radio" name="sex" id="goku" value="goku">
+            <label for="goku">Tipo Goku</label>
+        </fieldset>
+    </form>
+    <br>
+    <form action="escolha_de_açai">
+        <fieldset>
+            <legend>Seu açai é perfeito de que jeito?</legend>
+            <input type="checkbox" name="liso" id="liso" value="liso">
+            <label for="liso">PURO</label>
+            <input type="checkbox" name="banana" id="banana" value="banana">
+            <label for="banana">Com Banana</label>
+            <input type="checkbox" name="morango" id="morango" value="morango">
+            <label for="morango">Com Morango</label>
+            <input type="checkbox" name="granola" id="granola" value="granola">
+            <label for="granola">Com Granola</label>
+            <input type="checkbox" name="terra" id="terra" value="terra">
+            <label for="terra">Tem Gosto de Terra</label>
+        </fieldset>
+    </form>
+    <br>
+    <form action="escolha_tamanho">
+        <fieldset>
+            <!-- aqui continuei o processo de superaçaiajin -->
+            <legend>Qual o tamanho preferido</legend>
+            <input type="radio" name="sex" id="500" value="500">
+            <label for="500">500ml</label>
+            <input type="radio" name="sex" id="300" value="300">
+            <label for="300">300ml</label>
+            <input type="radio" name="sex" id="100" value="100">
+            <label for="100">100ml</label>
+            <input type="radio" name="sex" id="casca" value="casca">
+            <label for="casca">casquinha</label>
+            <input type="radio" name="sex" id="gosto" value="gosto">
+            <label for="gosto">QUAL PARTE QUE TEM GOSTO DE TERRA VOCÊ NÃO ENTENDEU!!</label>
+        </fieldset>
+    </form>
+    <br>
+    <form action="obs">
+        <fieldset>
+            <p>Observações:</p>
+            <textarea id="observacoes" rows="4" cols="100"></textarea>
+        </fieldset>
+    </form>
+    <button type="submit">ENVIAR</button>
+    <button type="submit">LIMPAR</button>
 </body>
+
 </html>
